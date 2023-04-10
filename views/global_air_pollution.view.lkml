@@ -67,4 +67,9 @@ view: global_air_pollution {
     type: count
     drill_fields: []
   }
+
+  measure: pm2_5_sum {
+    type: sum
+    sql: ${TABLE}.PM2_5_AQI_Value ;;
+  }
 }
