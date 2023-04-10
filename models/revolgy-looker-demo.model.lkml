@@ -11,3 +11,5 @@ datagroup: revolgy-looker-demo_default_datagroup {
 persist_with: revolgy-looker-demo_default_datagroup
 
 explore: global_air_pollution {}
+
+explore: ozone_aqi_category_cnt {}

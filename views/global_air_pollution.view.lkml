@@ -72,4 +72,9 @@ view: global_air_pollution {
     type: sum
     sql: ${TABLE}.PM2_5_AQI_Value ;;
   }
+
+  measure: pm2_5_avg {
+    type: average
+    sql: ${TABLE}.PM2_5_AQI_Value ;;
+  }
 }
