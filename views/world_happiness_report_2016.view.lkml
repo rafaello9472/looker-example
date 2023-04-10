@@ -75,16 +75,19 @@ view: world_happiness_report_2016 {
 
   measure: avg_happiness_score {
     type: average
+    value_format: "0.00"
     sql: ${TABLE}.Happiness_Score ;;
   }
 
   measure: max_happiness_score {
     type: max
+    value_format: "0.00"
     sql: ${TABLE}.Happiness_Score ;;
   }
 
   measure: min_happiness_score {
     type: min
+    value_format: "0.00"
     sql: ${TABLE}.Happiness_Score ;;
   }
 }
